@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Galerie</title>
+
+   <style>
+    
+    .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  position: relative;
+  margin: 10px;
+}
+
+img {
+  width:300px;
+  height:200px;
+}
+
+.like-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  color:goldenrod;
+  font-size:60px;
+}
+p{
+  width: 46%;
+  margin-left: 31%;
+}
+
+   </style>
+      <script src="projetjava.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Galerie</h1>
+    <p>Bienvenue dans notre galerie d'images dédiée aux décorations de maison ! 
+      Ici, vous pourrez trouver une grande variété d'images inspirantes pour décorer
+       votre maison selon vos goûts et vos préférences. Que vous soyez à la recherche 
+       d'idées pour la décoration de votre salon, de votre chambre à coucher, de votre
+        cuisine ou de votre jardin, nous avons rassemblé une sélection de photos de qualité 
+        pour vous aider à créer un intérieur qui vous ressemble. Des styles les plus classiques
+         aux plus modernes, en passant par les tendances du moment, vous trouverez à coup sûr 
+         de quoi nourrir votre imagination et vous donner l'inspiration dont vous avez besoin 
+         pour faire de votre maison un lieu de vie qui vous correspond parfaitement.</p>
+  </header>
+    <div class="gallery">
+        <div class="image">
+          <img src="https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+          " alt="Image 1">
+          <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+        </div>
+        <div class="image">
+          <img src="https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 2">
+          <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+        </div>
+        <div class="image">
+          <img src="https://images.pexels.com/photos/276534/pexels-photo-276534.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 3">
+          <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+        </div>
+        <div class="image">
+            <img src="https://images.pexels.com/photos/609768/pexels-photo-609768.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 1">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/279648/pexels-photo-279648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 3">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/8753032/pexels-photo-8753032.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 1">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/163046/welcome-to-our-home-welcome-tablet-an-array-of-163046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/7018406/pexels-photo-7018406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/1005058/pexels-photo-1005058.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 1">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/6707628/pexels-photo-6707628.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 2">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/6775268/pexels-photo-6775268.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Image 3">
+            <button class="like-button" onclick="changerCouleur(this)"><box-icon name='heart'></box-icon></button>
+          </div>
+      </div>
+      <script src="projetjava.js"></script>
+</body>
+</html>
