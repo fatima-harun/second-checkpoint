@@ -4,3 +4,4 @@ function changerCouleur(element) {
 	else
 		element.style.backgroundColor = 'red';
 }
+

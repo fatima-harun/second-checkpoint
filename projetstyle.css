@@ -154,7 +154,7 @@ h2{
    margin-top: 4%;
 }
 h1{
-   color:#95afc0
+   color:#95afc0;
 }
 #services{
   text-align: center;
@@ -162,67 +162,48 @@ h1{
   font-size: 50px;
 
 }
-.contact{
-   background-color: #95afc0;
+.contact {
+    max-width: 400px;
+   margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#contacter{
-   color:black;
-   font-size: 50px;
-   text-align: center;
-}
-.prénom, .telephone{
-   display: flex;
-   justify-content: center;
-
-}
-h4,input{
-   margin: 2%;
-}
-.contact{
-   text-align: center;
-}
-form {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-	margin: 0 auto;
-}
-
-label {
-	margin-top: 1em;
-}
-
-input[type="submit"] {
-	margin-top: 2em;
-	align-self: center;
-	padding: 1em;
-	background-color: #4CAF50;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	font-size: 1.2em;
-	cursor: pointer;
-}
-
-input[type="submit"]:hover {
-	background-color: #3e8e41;
-}
-.wrapper{
- position:relative;
- width:400px;
- height:440px;
- background:transparent;
- border: 2px solid rgba(225, 225, 225, .5);
- border-radius:20px;
- backdrop-filter:blur(20px);
- box-shadow: 0 0 30px rgba(0, 0, 0, .5);
- display:flex;
- justify-content: center;
- align-items:center
-}
-
-.form-box h2{
-   font-size:2em;
-   color:#162938;
-   text-align:center;
-}
+    
+    .contact h2 {
+      text-align: center;
+    }
+    
+    .contact label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    
+    .contact input[type="text"],
+    .contact textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    .contact textarea {
+      height: 120px;
+    }
+    
+    .contact input[type="submit"] {
+      width: 100%;
+      background-color:goldenrod;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    
+    
